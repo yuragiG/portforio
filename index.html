@@ -8,10 +8,10 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
   <link rel="stylesheet" href="css/gallery.css">
   <link rel="stylesheet" type="text/css" href="css/load.css">
   <link rel="stylesheet" type="text/css" href="css/scroll_decoration.css">
-<!-- <link rel="stylesheet" href="css/animation.css"> -->
 <link rel="stylesheet" type="text/css" href="css/scroll_animation.css">
 <!-- JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -51,18 +51,15 @@ ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <li><a href="#hero_section" class="nav_btn">Top</a></li>
     <li><a href="#profile_section" class="nav_btn">Profile</a></li>
     <li><a href="#gallery_section" class="nav_btn">Gallery</a></li>
-    <li>
-      <!-- 音楽再生 -->
-      <div id="music">
-        <audio autoplay preload loop id="sound">
-          <source src="audio/music.mp3">
-        </audio>
-        <!-- <a onclick="mute();"><img src="img/sound.png" alt="mute" width="30" class="music_btn"></a> -->
-      </div>
-    </li>
+    <li><a href="https://www.nicovideo.jp/user/45665347/mylist/51619878?ref=pc_watch_description" target="_blank" rel="noopener noreferrer"><img src="img/music_btn.png" alt="" width="40" class="media_btn music_btn"></a></li>
+    <li><a href="portforio.html"><img src="img/pf_btn.png" alt="" width="40" class="media_btn" target="_blank" rel="noopener noreferrer"></a></li>
   </ul>
-    
-  </nav> 
+</nav> 
+  
+  <!-- 音楽再生 -->
+<audio autoplay preload loop id="sound">
+  <source src="audio/music.mp3">
+</audio>
 
   <!-- トップへ戻るボタン -->
   <a href="#"><img src="img/top.png" alt="トップへ戻る" class="top_btn" width="60"></a>
@@ -93,7 +90,7 @@ ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <div class="wrapper">
         <section>
           <div class="section_container">
-            <h2><img src="img/profile.png" alt="Profile わたしのこと" height="260" class="section_title inview fadeIn"></h2>
+            <h2><img src="img/profile.png" alt="Profile わたしのこと" height="260" class="profile_title inview fadeIn"></h2>
           </div>
           <p class="profile_text  inview fadeIn">1995年11月24日 栃木県宇都宮市で生まれました。<br>
             2歳からは群馬県桐生市で育ちました。<br>
@@ -116,13 +113,14 @@ ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <div class="wrapper">
         <section>
           <div class="section_container">
-            <h2><img src="img/gallery.png" alt="Gallery 作品のご紹介" height="260" class="section_title  inview fadeIn"></h2>
-            <div class="link_box">
-              <a href="portforio.html" class="pf_link">より詳細なポートフォリオは<br>コチラからご覧いただけます。</a>
-            </div>
+            <h2><img src="img/gallery.png" alt="Gallery 作品のご紹介" height="260" class="gallery_title  inview fadeIn"></h2>
           </div>
         </section>
-        </div><!-- wrapper -->
+          <div class="link_box">
+            <a href="portforio.html" class="pf_link">より詳細なポートフォリオは<br>コチラからご覧いただけます。</a>
+          </div>
+      </div><!-- wrapper -->
+    </div><!-- gallery section -->
         <div class="gallery_container">
           <img src="img/nc01.jpg" alt="" width="600" class="nc01 inview fadeIn">
           <img src="img/nc02.jpg" alt="" width="600" class="nc02 inview fadeIn">
@@ -148,7 +146,7 @@ ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
             <p class="message">最後までご覧いただき、<br>
               誠にありがとうございます。<br>
               皆様とお会いできることを<br>
-              切に願っています。</p>
+              切に願っております。</p>
           </div><!-- message_box -->
           <div class="sign_box">
             <img src="img/sign.png" alt="Osawa Yuragi" class="sign">
