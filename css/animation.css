@@ -1,37 +1,48 @@
 .copy1 {
   opacity: 0;
-  animation: copyAnime 2s ease 0s 1 forwards;
+  animation: copyAnime 2s ease 2s 1 forwards;
 }
 
 .copy2 {
   opacity: 0;
-  animation: copyAnime 2s ease 1s 1 forwards;
+  animation: copyAnime 2s ease 3s 1 forwards;
 }
 
 .copy3 {
   opacity: 0;
-  animation: copyAnime 2s ease 2s 1 forwards;
+  animation: copyAnime 2s ease 4s 1 forwards;
 }
 
 .copy4 {
   opacity: 0;
-  animation: copyAnime 2s ease 3.5s 1 forwards;
+  animation: copyAnime 2s ease 5.5s 1 forwards;
 }
 
 .copy5 {
   opacity: 0;
-  animation: copyAnime 2s ease 4.5s 1 forwards;
+  animation: copyAnime 2s ease 6.5s 1 forwards;
 }
 
 .copy6 {
   opacity: 0;
-  animation: copyAnime 2s ease 5s 1 forwards;
+  animation: copyAnime 2s ease 7s 1 forwards;
 }
 
 .face {
   opacity: 0;
-  animation: face 4s ease 4s 1 forwards;
+  animation: face 4s ease 7s 1 forwards;
 }
+
+.pf_cursive {
+  opacity: 0;
+  animation: face 4s ease 7s 1 forwards;
+}
+
+.scrolldown1 {
+  opacity: 0;
+  animation: face 4s ease 7s 1 forwards;
+}
+
 
 @keyframes copyAnime {
   0%{
