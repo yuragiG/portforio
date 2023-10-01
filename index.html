@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Osawa Yuragi | Portforio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/load.css">
+  <link rel="stylesheet" type="text/css" href="css/scroll_decoration.css">
+<!-- <link rel="stylesheet" href="css/animation.css"> -->
+<link rel="stylesheet" type="text/css" href="css/scroll_animation.css">
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/smooth_scroll.js"></script>
+  <script src="js/fade.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXv
+ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/load.js"></script>
+  <!-- Googleフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+</head>
+
+<!-- body -->
+
+<body>
+  <main>
+
+    <!-- ロード画面 -->
+    <div id="splash">
+      <div id="splash_logo"><img src="img/logo.png" alt="" class="fadeUp"></div>
+    <!--/splash--></div>
+    <div id="container"></div>
+
+<!-- 固定要素 -->
+
+<div id="stkr"></div>
+
+<!-- ナビゲーション -->
+<nav>
+  <ul class="nav_box">
+    <li><a href="#hero_section" class="nav_btn">Top</a></li>
+    <li><a href="#profile_section" class="nav_btn">Profile</a></li>
+    <li><a href="#gallery_section" class="nav_btn">Gallery</a></li>
+    <li>
+      <!-- 音楽再生 -->
+      <div id="music">
+        <audio autoplay preload loop id="sound">
+          <source src="audio/music.mp3">
+        </audio>
+        <!-- <a onclick="mute();"><img src="img/sound.png" alt="mute" width="30" class="music_btn"></a> -->
+      </div>
+    </li>
+  </ul>
+    
+  </nav> 
+
+  <!-- トップへ戻るボタン -->
+  <a href="#"><img src="img/top.png" alt="トップへ戻る" class="top_btn" width="60"></a>
+
+<!-- ヒーローエリア -->
+
+    <div id="hero_section">
+      <h1><img src="img/logo.png" alt="" height="200" class="logo"></h1>
+      <img src="img/logo_bg.png" alt="" width="450">
+      <div class="copy">
+        <p class="copy1">音楽と、</p><p class="copy2">デザインが織りなす</p><p class="copy3">ハーモニー</p><br>
+        <p class="copy4">はじめまして、</p><p class="copy5">大沢ゆらぎ です。</p>
+        <div class="copy6">
+          <p>Osawa Yuragi</p>
+          <p>Portforio Site</p>
+        </div>
+        <img src="img/pf_hw.png" alt="prtforio" width="750" class="pf_cursive">
+      </div><!-- copy -->
+      <img src="img/face.png" alt="" class="face" >
+      <div class="scrolldown1"><span>Scroll</span></div>
+      <div class="scrolldown1"><span>Scroll</span></div>
+    </div><!-- hero -->
+
+
+
+    <!-- Profileセクション -->
+    <div id="profile_section">
+      <div class="wrapper">
+        <section>
+          <div class="section_container">
+            <h2><img src="img/profile.png" alt="Profile わたしのこと" height="260" class="section_title inview fadeIn"></h2>
+          </div>
+          <p class="profile_text  inview fadeIn">1995年11月24日 栃木県宇都宮市で生まれました。<br>
+            2歳からは群馬県桐生市で育ちました。<br>
+            幼少期は、ダンボール10箱分に及ぶ絵や工作をして過ごします。<br>
+            この頃から広告・パッケージ・ロゴなどのグラフィックデザインに興味を持ち、<br>
+            気になった作品をスクラップブックに収集していました。<br>
+            高校卒業後は、商業音楽(J-POP)の作曲家を志し音楽の専門学校に進みます。<br>
+            卒業後はアルバイトをしながら、ボカロPとしての活動や、<br>
+            デモ音源の制作、同人アルバムへの参加、地下アイドルへの楽曲提供を行います。<br>
+            そんな折、職業訓練校を経てデザイナーになった人の動画を見つけました。<br>
+            そして、作曲家を目指すと決めた日から考えないようにしてきた<br>
+            グラフィックデザイナーの夢を思い出しました。<br>
+            2023年の3月より職業訓練校にてグラフィックデザインの基礎を学び、今に至ります。</p>
+        </section>
+      </div><!-- wrapper -->
+    </div><!-- profile section -->
+
+    <!-- Galleryセクション -->
+    <div id="gallery_section">
+      <div class="wrapper">
+        <section>
+          <div class="section_container">
+            <h2><img src="img/gallery.png" alt="Gallery 作品のご紹介" height="260" class="section_title  inview fadeIn"></h2>
+            <div class="link_box">
+              <a href="portforio.html" class="pf_link">より詳細なポートフォリオは<br>コチラからご覧いただけます。</a>
+            </div>
+          </div>
+        </section>
+        </div><!-- wrapper -->
+        <div class="gallery_container">
+          <img src="img/nc01.jpg" alt="" width="600" class="nc01 inview fadeIn">
+          <img src="img/nc02.jpg" alt="" width="600" class="nc02 inview fadeIn">
+          <img src="img/nc03.jpg" alt="" width="600" class="nc03 inview fadeIn">
+          <img src="img/p01.jpg" alt="" width="600" class="p01 inview fadeIn">
+          <img src="img/bn02.jpg" alt="" width="600" class="bn02 inview fadeIn">
+          <img src="img/bn01.jpg" alt="" width="600" class="bn01 inview fadeIn">
+          <img src="img/b01.jpg" alt="" width="600" class="b01 inview fadeIn">
+          <img src="img/b02.jpg" alt="" width="600" class="b02 inview fadeIn">
+          <img src="img/b03.jpg" alt="" width="600" class="b03 inview fadeIn">
+          <img src="img/l01.jpg" alt="" width="600" class="l01 inview fadeIn">
+          <img src="img/pk01.jpg" alt="" width="600" class="pk01 inview fadeIn">
+          <img src="img/p03.jpg" alt="" width="600" class="p03 inview fadeIn">
+          <img src="img/p02.jpg" alt="" width="600" class="p02 inview fadeIn">
+          <img src="img/lf01.jpg" alt="" width="600" class="lf01 inview fadeIn">
+        </div>
+
+    </div><!-- Gallery section -->
+
+        <!-- Messageセクション -->
+        <div class="message_section inview fadeIn">
+          <div class="message_box">
+            <p class="message">最後までご覧いただき、<br>
+              誠にありがとうございます。<br>
+              皆様とお会いできることを<br>
+              切に願っています。</p>
+          </div><!-- message_box -->
+          <div class="sign_box">
+            <img src="img/sign.png" alt="Osawa Yuragi" class="sign">
+          </div>
+        </div><!-- message section -->
+  </main>
+
+<!-- footer -->
+
+  <footer>
+    <div class="footer_flex">
+      <div class="logo_box">
+        <img src="img/logo.png" alt="" height="200" class="logo">
+        <img src="img/logo_bg.png" alt="" width="450">
+      </div>
+      <div class="fnav_box">
+        <ul>
+          <li><a href="#hero_section">Top</a></li>
+          <li><a href="#profile_section">Profile</a></li>
+          <li><a href="#gallery_section">Gallery</a></li>
+        </ul>
+      </div>
+      <address class="info_box">
+        <h4>大沢 ゆらぎ</h4>
+        <p>
+          E-mail : <a href="mailto:osawayuragi@gmail.com">
+          osawayuragi@gmail.com</a><br>
+          Tel : 080 - 1234 - 5678<br>
+          〒 123 - 4567<br>
+          住所 : 東京都東京区東京町１丁目２３番４号<br>
+        </p>
+      </address>
+    </div>
+    <div class="copyright_box">
+      <small>© Osawa Yuragi All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
