@@ -112,7 +112,6 @@ nav {
   padding-bottom: 100px;
 }
 
-
 .media_btn {
   padding: 35px 0 0 8px;
   transition: transform 0.3s;
@@ -142,7 +141,6 @@ nav {
 }
 
 /* Profileセクション */
-
 
 .section_container {
   width: 800px;
@@ -193,7 +191,6 @@ nav {
   position: relative;
 }
 
-
 /* Messageセクション */
 
 .message_section {
@@ -214,18 +211,15 @@ nav {
   line-height: 80px;
 }
 
-.sign_box {
+.oy_cursive_box {
   margin: 0 auto;
   text-align: right;
   width: 800px;
 }
 
-.sign {
+.oy_cursive {
   width: 450px;
 }
-
-
-
 
 /* フッター */
 
@@ -251,7 +245,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 
 .fnav_box {
   font-size: 28px;
@@ -291,4 +284,7 @@ footer {
   width: 100%;
   text-align: center;
   color: gray;
+}
+.mo_br {
+  display: none;
 }

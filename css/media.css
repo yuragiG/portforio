@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+@media screen and (max-width: 500px) {
+
+/* 全体設定 */
+
+html {
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/* 非表示 */
+
+nav, .top_btn, .fnav_box {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.logo_bg {
+    width: 250px;
+    height: auto;
+}
+
+
+.face {
+    position: absolute;
+    top: 0;
+    right: -260px;
+    height: 500px;
+    width: auto;
+    max-width: 1100px;
+    overflow: hidden;
+    /* z-index: 800; */
+} 
+
+.copy {
+    width: 200px;
+    margin: 28px 0 0 50px;
+}
+
+.copy > p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.copy6 p {
+    font-size: 8px;
+    line-height: 10px;
+    padding:10px 0 0 1px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+
+.pf_cursive {
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+
+#hero_section {
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+}
+.scrolldown1 {
+    /* display: none; */
+}
+
+/* プロフィール */
+
+.section_title {
+    width: 250px;
+    height: auto;
+}
+
+.pf_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section_container {
+    width: 500px;
+}
+
+.profile_text {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.pc_br {
+    display: none;
+}
+
+/* Gallery */
+
+.link_box {
+    width: 270px;
+}
+
+.link_box a {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* メッセージ */
+
+.message_box {
+    margin-left: 120px;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+
+.oy_cursive_box {
+    text-align: start;
+    margin: 28px 0 0 95px;
+}
+
+.oy_cursive {
+    width: 300px;
+}
+
+/* フッター */
+
+footer {
+    margin-top: 200px;
+}
+
+.fnav_box {
+    display: none;
+}
+
+.info_box {
+    opacity: 0.8;
+    margin-top: 200px;
+    width: 400px;
+}
+
+.info_box h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info_box p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.mo_br {
+    display: inline;
+}
+
+small {
+    font-size: 10px;
+
+}
+
+}

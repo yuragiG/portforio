@@ -19,9 +19,6 @@ header {
     justify-content: space-between;
 }
 
-.back_btn_box {
-}
-
 .back_btn {
     margin: 55px 50px 0 0;
     width: 110px;
@@ -43,7 +40,6 @@ header {
 
 .header_logo {
     position: relative;
-
 }
 
 .header_logo:hover {
@@ -94,6 +90,10 @@ header {
 .contents {
     position: relative;
     width: 100vw;
+}
+
+.mo_br {
+    display: none;
 }
 
 footer {

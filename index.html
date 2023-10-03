@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/load.css">
@@ -61,8 +62,10 @@
 <!-- ヒーローエリア -->
 
     <div id="hero_section">
-      <h1><img src="img/logo.png" alt="" height="200" class="logo"></h1>
-      <img src="img/logo_bg.png" alt="" width="450">
+      <div class="logo_box">
+        <h1><img src="img/logo.png" alt="" height="200" class="logo"></h1>
+        <img src="img/logo_bg.png" alt="" width="450" class="logo_bg">
+      </div>
       <div class="copy">
         <p class="copy1">音楽と、</p><p class="copy2">デザインが織りなす</p><p class="copy3">ハーモニー</p><br>
         <p class="copy4">はじめまして、</p><p class="copy5">大沢ゆらぎ です。</p>
@@ -83,21 +86,23 @@
       <div class="wrapper">
         <section>
           <div class="section_container">
-            <h2><img src="img/profile.png" alt="Profile わたしのこと" height="260" class="profile_title inview fadeIn"></h2>
+            <h2><img src="img/profile.png" alt="Profile わたしのこと" height="260" class="profile_title section_title inview fadeIn"></h2>
           </div>
-          <p class="profile_text  inview fadeIn">1995年11月24日 栃木県宇都宮市で生まれました。<br>
-            2歳からは群馬県桐生市で育ちました。<br>
-            幼少期は、ダンボール10箱分に及ぶ絵や工作をして過ごします。<br>
-            この頃から広告・パッケージ・ロゴなどのグラフィックデザインに興味を持ち、<br>
-            気になった作品をスクラップブックに収集していました。<br>
-            高校卒業後は、商業音楽(J-POP)の作曲家を志し音楽の専門学校に進みます。<br>
-            卒業後はアルバイトをしながら、ボカロPとしての活動や、<br>
-            デモ音源の制作、同人アルバムへの参加、地下アイドルへの楽曲提供を行います。<br>
-            そんな折、職業訓練校を経てデザイナーになった人の動画を見つけました。<br>
-            そして、作曲家を目指すと決めた日から考えないようにしてきた<br>
-            グラフィックデザイナーの夢を思い出しました。<br>
-            2023年の3月より職業訓練校にてグラフィックデザインの基礎を学び、今に至ります。</p>
-        </section>
+          <div class="pf_wrapper">
+            <p class="profile_text inview fadeIn">1995年11月24日 栃木県宇都宮市で生まれました。<br>
+              2歳からは群馬県桐生市で育ちました。<br>
+              幼少期は、ダンボール10箱分に及ぶ絵や工作をして過ごします。<br>
+              この頃から広告・パッケージ・ロゴなどのグラフィックデザインに興味を持ち、<br class="pc_br">
+              気になった作品をスクラップブックに収集していました。<br>
+              高校卒業後は、商業音楽(J-POP)の作曲家を志し音楽の専門学校に進みます。<br>
+              卒業後はアルバイトをしながら、ボカロPとしての活動や、<br class="pc_br">
+              デモ音源の制作、同人アルバムへの参加、地下アイドルへの楽曲提供を行います。<br>
+              そんな折、職業訓練校を経てデザイナーになった人の動画を見つけました。<br>
+              そして、作曲家を目指すと決めた日から考えないようにしてきた<br class="pc_br">
+              グラフィックデザイナーの夢を思い出しました。<br>
+              2023年の3月より職業訓練校にてグラフィックデザインの基礎を学び、今に至ります。</p class="pc_br">
+            </div>
+            </section>
       </div><!-- wrapper -->
     </div><!-- profile section -->
 
@@ -106,7 +111,7 @@
       <div class="wrapper">
         <section>
           <div class="section_container">
-            <h2><img src="img/gallery.png" alt="Gallery 作品のご紹介" height="260" class="gallery_title  inview fadeIn"></h2>
+            <h2><img src="img/gallery.png" alt="Gallery 作品のご紹介" height="260" class="gallery_title section_title inview fadeIn"></h2>
           </div>
         </section>
           <div class="link_box">
@@ -141,8 +146,8 @@
               皆様とお会いできることを<br>
               切に願っております。</p>
           </div><!-- message_box -->
-          <div class="sign_box">
-            <img src="img/sign.png" alt="Osawa Yuragi" class="sign">
+          <div class="oy_cursive_box">
+            <img src="img/sign.png" alt="Osawa Yuragi" class="oy_cursive">
           </div>
         </div><!-- message section -->
   </main>
@@ -153,7 +158,7 @@
     <div class="footer_flex">
       <div class="logo_box">
         <img src="img/logo.png" alt="" height="200" class="logo">
-        <img src="img/logo_bg.png" alt="" width="450">
+        <img src="img/logo_bg.png" alt="" width="450" class="logo_bg">
       </div>
       <div class="fnav_box">
         <ul>
@@ -169,7 +174,7 @@
           osawayuragi@gmail.com</a><br>
           Tel : 080 - 1234 - 5678<br>
           〒 123 - 4567<br>
-          住所 : 東京都東京区東京町１丁目２３番４号<br>
+          住所 : 東京都東京区東京町<br class="mo_br">１丁目２３番４号<br>
         </p>
       </address>
     </div>

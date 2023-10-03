@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@media screen and (max-width: 500px) {
+
+.logo  {
+    width: 250px;
+    height: auto;
+}
+
+.logo_bg {
+    width: 300px;
+    height: auto;
+}
+
+.back_btn {
+    display: none;;
+}
+
+
+.bg {
+    width: auto;
+    height: 100vh;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+}
