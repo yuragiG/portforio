@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Osawa Yuragi | Portforio</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Osawa Yuragi | Portforio</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animation.css">
-  <link rel="stylesheet" href="css/gallery.css">
-  <link rel="stylesheet" type="text/css" href="css/load.css">
-<link rel="stylesheet" type="text/css" href="css/scroll_animation.css">
-<!-- JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/jquery-1.12.3.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script src="js/music.js"></script>
-  <script src="js/smooth_scroll.js"></script>
-  <script src="js/fade.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXv
-ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="js/load.js"></script>
-  <!-- Googleフォント -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
-</head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/load.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll_animation.css">
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <script src="js/smooth_scroll.js"></script>
+    <script src="js/fade.js"></script>
+    <script src="js/load.js"></script>
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  </head>
 
 <!-- body -->
-
 <body>
   <main>
+    <!-- 音楽再生 -->
+    <audio autoplay preload loop id="sound"><source src="audio/music.mp3"></audio>
 
     <!-- ロード画面 -->
-    <div id="splash">
-      <div id="splash_logo"><img src="img/logo.png" alt="" class="fadeUp"></div>
-    <!--/splash--></div>
+    <div id="splash"><div id="splash_logo"><img src="img/logo.png" alt="" class="fadeUp"></div></div>
     <div id="container"></div>
 
-<!-- 固定要素 -->
+    <!-- 固定要素 -->
+    <div id="stkr"></div>
 
-<div id="stkr"></div>
-
-<!-- ナビゲーション -->
-<nav>
-  <ul class="nav_box">
-    <li><a href="#hero_section" class="nav_btn">Top</a></li>
-    <li><a href="#profile_section" class="nav_btn">Profile</a></li>
-    <li><a href="#gallery_section" class="nav_btn">Gallery</a></li>
-    <li><a href="https://www.nicovideo.jp/user/45665347/mylist/51619878?ref=pc_watch_description" target="_blank" rel="noopener noreferrer"><img src="img/music_btn.png" alt="" width="40" class="media_btn music_btn"></a></li>
-    <li><a href="portforio.html"><img src="img/pf_btn.png" alt="" width="40" class="media_btn" target="_blank" rel="noopener noreferrer"></a></li>
-  </ul>
-</nav> 
+    <!-- ナビゲーション -->
+    <nav>
+      <ul class="nav_box">
+        <li><a href="#hero_section" class="nav_btn">Top</a></li>
+        <li><a href="#profile_section" class="nav_btn">Profile</a></li>
+        <li><a href="#gallery_section" class="nav_btn">Gallery</a></li>
+        <li><a href="https://www.nicovideo.jp/user/45665347/mylist/51619878?ref=pc_watch_description" target="_blank" rel="noopener noreferrer"><img src="img/music_btn.png" alt="" width="40" class="media_btn music_btn"></a></li>
+        <li><a href="portforio.html"><img src="img/pf_btn.png" alt="" width="40" class="media_btn" target="_blank" rel="noopener noreferrer"></a></li>
+      </ul>
+    </nav> 
   
-  <!-- 音楽再生 -->
-<audio autoplay preload loop id="sound">
-  <source src="audio/music.mp3">
-</audio>
 
   <!-- トップへ戻るボタン -->
   <a href="#"><img src="img/top.png" alt="トップへ戻る" class="top_btn" width="60"></a>

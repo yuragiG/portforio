@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/* 目次ページのリンク */
+
+.osawaya_item {
+    position: absolute;
+    top: calc(100vw * 0.124);
+    left: calc(100vw * 0.58);
+    width: calc(100vw * 0.11);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.flora_item {
+    position: absolute;
+    top: calc(100vw * 0.141);
+    left: calc(100vw * 0.58);
+    width: calc(100vw * 0.11);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.castle_item {
+    position: absolute;
+    top: calc(100vw * 0.158);
+    left: calc(100vw * 0.58);
+    width: calc(100vw * 0.11);
+    height: calc(100vw *0.034);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.card_item {
+    position: absolute;
+    top: calc(100vw * 0.124);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.hamono_item {
+    position: absolute;
+    top: calc(100vw * 0.141);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.typo_item {
+    position: absolute;
+    top: calc(100vw * 0.158);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.package_item {
+    position: absolute;
+    top: calc(100vw * 0.176);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.logo_item {
+    position: absolute;
+    top: calc(100vw * 0.194);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw * 0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.keyvisual_item {
+    position: absolute;
+    top: calc(100vw * 0.212);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.banner_item {
+    position: absolute;
+    top: calc(100vw * 0.230);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.web_item {
+    position: absolute;
+    top: calc(100vw * 0.248);
+    left: calc(100vw * 0.704);
+    width: calc(100vw * 0.13);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.music_item {
+    position: absolute;
+    top: calc(100vw * 0.124);
+    left: calc(100vw * 0.85);
+    width: calc(100vw * 0.07);
+    height: calc(100vw *0.016);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+/* 音楽ページのリンク */
+
+.si_link {
+    position: absolute;
+    top: calc(100vw * 0.02);
+    left: calc(100vw * 0.342);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: pink; */
+    /* opacity: 0.5; */
+}
+
+.am_link {
+    position: absolute;
+    top: calc(100vw * 0.02);
+    left: calc(100vw * 0.53);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: skyblue; */
+    opacity: 0.5;
+}
+
+.sa_link {
+    position: absolute;
+    top: calc(100vw * 0.02);
+    left: calc(100vw * 0.678);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: green; */
+    opacity: 0.5;
+}
+
+.ld_link {
+    position: absolute;
+    top: calc(100vw * 0.02);
+    left: calc(100vw * 0.825);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: yellow; */
+    opacity: 0.5;
+}
+
+.h_link {
+    position: absolute;
+    top: calc(100vw * 0.19);
+    left: calc(100vw * 0.342);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: silver; */
+    opacity: 0.5;
+}
+
+.kd_link {
+    position: absolute;
+    top: calc(100vw * 0.19);
+    left: calc(100vw * 0.53);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: pink; */
+    opacity: 0.5;
+}
+
+.ta_link {
+    position: absolute;
+    top: calc(100vw * 0.19);
+    left: calc(100vw * 0.678);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: skyblue; */
+    opacity: 0.5;
+}
+
+.st_link {
+    position: absolute;
+    top: calc(100vw * 0.19);
+    left: calc(100vw * 0.825);
+    width: calc(100vw * 0.128);
+    height: calc(100vw *0.16);
+    border-radius: calc(100vw *0.01);
+    /* background-color: green; */
+    opacity: 0.5;
+}
