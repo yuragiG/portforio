@@ -1,93 +1,31 @@
 @charset "utf-8";
 
-/* common */
-
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.html {
-  font-size: 10px;
-}
-/* rem単位のフォントサイズの基準を設定 */
+/* ! ---- 全体設定 ---- */
 
 body {
   font-family: 'Noto Serif JP', serif;
-}/* フォントの設定 */
-
-.wrapper {
-  width: 800px;
-  margin: 0 auto;
 }
+
+/* スクロールするとフワッと出てくるアニメーションの設定 */
 
 .fadeIn {
   opacity: 0;
   transition: 2s;
 }
+
 .fadeIn.is-show {
   opacity: 1;
 }
 
-/* main */
+/* モバイルで挿入する<br> */
 
-#hero_section {
-  position: relative;
-  height: 1170px;
-  
-  /* background-image: url("assets\img\face.png/face.png"); */
+.mobile_br {
+  display: none;
 }
 
-.logo {
-  /* background-image: url("img/logo-back.png"); */
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
+/* ! ---- ナビゲーション設定 ---- */
 
-.copy {
-  position: relative;
-  z-index: 1000;
-  width: 900px;
-  margin: 150px auto;
-}
-
-.copy1, .copy2, .copy3, .copy4, .copy5 {
-  display: inline-block;
-  font-size: 43px;
-  line-height: 80px;
-  letter-spacing: 4px;
-}
-
-.copy6 p {
-  position: relative;
-  z-index: 2000;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 2.5px;
-  padding: 5px 0 0 5px;
-}
-
-.pf_cursive {
-  width: 750px;
-  position: absolute;
-  top: 170px;
-  left: -50px;
-  z-index: 1000;
-  mix-blend-mode: color;
-}
-
-.face {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  width: 60%;
-  max-width: 1100px;
-  z-index: 800;
-}
-
-/* ナビゲーション設定 */
+/* 画面左のナビゲーション */
 
 nav {
   position: fixed;
@@ -112,6 +50,8 @@ nav {
   padding-bottom: 100px;
 }
 
+/* アイコンボタン */
+
 .media_btn {
   padding: 35px 0 0 8px;
   transition: transform 0.3s;
@@ -120,6 +60,12 @@ nav {
 .media_btn:hover {
   transform: scale(1.1);
 }
+
+.music_btn {
+  padding: 100px 0 0 7px;
+}
+
+/* トップへ戻るボタン */
 
 .top_btn {
   position: fixed;
@@ -135,19 +81,90 @@ nav {
   transform: scale(1.1);
 }
 
-.music_btn {
-  mix-blend-mode: difference;
-  padding: 100px 0 0 7px;
+/* ! ---- Hero(TOP) セクション ---- */
+
+.hero_section {
+  position: relative;
+  height: 1170px;
+  width: 100vw;
 }
 
-/* Profileセクション */
+/* ロゴ */
 
-.section_container {
-  width: 800px;
+.logo {
+  /* background-image: url("img/logo-back.png"); */
+  position: absolute;
+  width: 16.4vw;
+  max-width: 500px;
+  min-width: 300px;
+  height: auto;
+  top: 30px;
+  left: 30px;
+}
+
+.logo_bg {
+  width: 17.7vw;
+  height: auto;
+  max-width: 450px;
+  min-width: 340px;
+}
+
+/* キャッチコピー */
+
+.copy_box {
+  position: relative;
+  z-index: 1000;
+  width: 900px;
+  margin: 150px auto;
+}
+
+.copy1, .copy2, .copy3, .copy4, .copy5 {
+  display: inline-block;
+  font-size: 43px;
+  line-height: 80px;
+  letter-spacing: 4px;
+}
+
+.title_box p {
+  position: relative;
+  z-index: 2000;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  padding: 5px 0 0 5px;
+}
+
+.pf_cursive {
+  width: 750px;
+  position: absolute;
+  top: 170px;
+  left: -50px;
+  z-index: 1000;
+}
+
+/* 顔写真 */
+
+.face_img {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 60%;
+  max-width: 1100px;
+  z-index: 800;
+}
+
+/* ! ---- Profile セクション ---- */
+
+.section_title_box {
   text-align: center;
-  padding-top: 200px; 
+  padding-top: 200px;
 }/* セクションタイトル画像を中央揃え */
 /* 各セクション外側の余白を設定 */
+
+.profile_section {
+  width: 800px;
+  margin: 0 auto;
+}
 
 .profile_title {
   margin-bottom: 100px;
@@ -158,11 +175,9 @@ nav {
   line-height: 60px;
 }
 
-/* Galleryセクション */
+/* ! ---- Gallery セクション ---- */
 
-.gallery_section {
-  position: relative;
-}
+/* ポートフォリオページへのリンク */
 
 .link_box {
   margin: 100px auto;
@@ -177,7 +192,7 @@ nav {
   font-size: 24px;
 }
 
-.pf_link {
+.portforio_link {
   text-decoration: none;
   color: black;
   font-size: 30px;
@@ -185,22 +200,22 @@ nav {
   letter-spacing: 3px;
 }
 
+/* 制作物画像のコンテナ */
+
 .gallery_container {
   width: 100%;
-  height: calc(100vw * 3.1);
+  height: 295vw;
   position: relative;
 }
 
-/* Messageセクション */
+/* !----- Message セクション ----- */
 
 .message_section {
-  position: relative;
-  width: 100%;
-  margin-top: 200px;
+  width: 800px;
+  margin: 30vw auto;
 }
 
 .message_box {
-  /* background-color: blue; */
   width: 475px;
   margin: 0 auto;
 }
@@ -211,72 +226,64 @@ nav {
   line-height: 80px;
 }
 
-.oy_cursive_box {
-  margin: 0 auto;
+.sign_box {
   text-align: right;
-  width: 800px;
 }
 
-.oy_cursive {
-  width: 450px;
-}
-
-/* フッター */
+/* ! ---- フッター ---- */
 
 footer {
-  margin-top: 500px;
   position: relative;
   background-color: #c9caca;
   width: 100%;
   height: 400px;
 }
 
-.logo_box {
-  position: relative;
-  width: 450px;
-}
-
-.logo {
+.footer_nav_box {
+  width: 100%;
   position: absolute;
-
-}
-
-.footer_flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.fnav_box {
+  top: 40px;
   font-size: 28px;
-  margin: 40px auto;
   line-height: 60px;
 }
 
+.footer_nav_box ul{
+  margin: 0 auto;
+  width: 100px;
+}
+
+.footer_nav_item {
+  color: black;
+  text-decoration: none;
+}
+
+/* 個人情報 */
+
 .info_box {
+  position: absolute;
+  bottom: 65px;
+  right: 40px;
   width: 450px;
   margin-top: 50px;
   color: black;
 }
 
-.info_box h4 {
+.info_name {
   font-size: 30px;
   margin-bottom: 25px;
 }
 
-.info_box p {
+.info_detail {
   padding-left: 4px;
   font-size: 16px;
   line-height: 32px;
 }
 
-.info_box a {
+.mail_link {
   color: black;
 }
 
-.fnav_box a {
-  color: black;
-  text-decoration: none;
-}
+/* コピーライト */
 
 .copyright_box {
   position: absolute;
@@ -284,7 +291,4 @@ footer {
   width: 100%;
   text-align: center;
   color: gray;
-}
-.mo_br {
-  display: none;
 }

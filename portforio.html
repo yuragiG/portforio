@@ -5,26 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Osawa Yuragi | Portforio</title>
+
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/portforio.css">
     <link rel="stylesheet" href="css/pf_link_btn.css">
     <link rel="stylesheet" href="css/pf_media.css">
     <link rel="stylesheet" type="text/css" href="css/pf_load.css">
-    <!-- javascript -->
-    <script src="js/gsap.js"></script>
-    <script src="js/ScrollTrigger.js"></script>
-    <script src="js/Scroll.js"></script>
-    <script src="js/smooth_scroll.js"></script>
-
-    <!-- JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-    <script src="js/fade.js"></script>
-    <script src="js/load.js"></script>
 
     <!-- Googleフォント -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,39 +21,43 @@
 <body>
     <!-- BGM -->
     <audio autoplay preload loop id="sound"><source src="audio/music_pf.mp3"></audio>
-        <!-- ロード画面 -->
-        <div id="splash"><div id="splash_logo"><img src="img/logo.png" alt="" class="fadeUp"></div></div>
-        <div id="container"></div>
+
+    <!-- ロード画面 -->
+    <div id="splash"><div id="splash_logo"><img src="img/logo.png" alt="" class="fadeUp"></div></div>
+    <div id="container"></div>
+
+    <!-- バックグラウンド画像 -->
+    <div class="background"></div>
+
     <!-- ヘッダー -->
-    <header>
-        <div class="header_flex">
+
+        <header>
             <div class="header_logo">
-                <a href="index.html"><img src="img/logo.png" alt="" height="150" class="logo"></a>
-                <img src="img/logo_bg.png" alt="" width="340" class="logo_bg">
+                <a href="index.html"><img src="img/logo.png" alt="" width="200" class="logo"></a>
+                <img src="img/logo_bg.png" alt="" width="240" class="logo_bg">
             </div>
             <div class="back_btn_box">
                 <a href="#contents_page"><img src="img/contents_btn.png" alt="Contentsへ戻る" width="120" class="back_btn"></a>
             </div>
-        </div>
     </header>
+
     <!-- メイン -->
     <main>
-        <img src="img/bg.jpg" alt="" class="bg">
-        <div class="pf_gallery">
+        <div class="gallery">
             <div class="contents">
                 <img src="img/pf2.jpg" alt="" class="pf" id="contents_page">
-                <a href="#osawaya_page" class="osawaya_item"></a>
-                <a href="#flora_page" class="flora_item"></a>
-                <a href="#castle_page" class="castle_item"></a>
-                <a href="#card_page" class="card_item"></a>
-                <a href="#hamono_page" class="hamono_item"></a>
-                <a href="#typo_page" class="typo_item"></a>
-                <a href="#package_page" class="package_item"></a>
-                <a href="#logo_page" class="logo_item"></a>
-                <a href="#keyvisual_page" class="keyvisual_item"></a>
-                <a href="#banner_page" class="banner_item"></a>
-                <a href="#web_page" class="web_item"></a>
-                <a href="#music_page" class="music_item"></a>
+                    <a href="#osawaya_page" class="osawaya_item"></a>
+                    <a href="#flora_page" class="flora_item"></a>
+                    <a href="#castle_page" class="castle_item"></a>
+                    <a href="#card_page" class="card_item"></a>
+                    <a href="#hamono_page" class="hamono_item"></a>
+                    <a href="#typo_page" class="typo_item"></a>
+                    <a href="#package_page" class="package_item"></a>
+                    <a href="#logo_page" class="logo_item"></a>
+                    <a href="#keyvisual_page" class="keyvisual_item"></a>
+                    <a href="#banner_page" class="banner_item"></a>
+                    <a href="#web_page" class="web_item"></a>
+                    <a href="#music_page" class="music_item"></a>
             </div>
             <img src="img/pf3.jpg" alt="" class="pf" id="osawaya_page">
             <img src="img/pf4.jpg" alt="" class="pf" id="flora_page">
@@ -92,8 +83,23 @@
             </div>
         </main>
         <footer>
-            <p>「Contents(目次)」や「13 音楽」に掲載の各項目を<br class="mo_br">クリックしていただくと、該当のページへ移動します。</p>
+            <div class="description_box">
+                <p>「Contents(目次)」や「13 音楽」に掲載の各項目をクリックしていただくと、該当のページへ移動します。</p>
+            </div>
         </footer>
     </div>
+
+    <!-- JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery-1.12.3.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <script src="js/fade.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/gsap.js"></script>
+    <!-- <script src="js/ScrollTrigger.js"></script>
+    <script src="js/Scroll.js"></script>
+    <script src="js/smooth_scroll.js"></script> -->
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 500px) {
 
-/* 全体設定 */
+/* ! ---- 全体設定 ---- */
 
 html {
     font-size: 16px;
@@ -14,81 +14,85 @@ html {
 
 /* 非表示 */
 
-nav, .top_btn, .fnav_box {
+nav, .top_btn, .fnav_box, .pc_br {
     display: none;
 }
 
+/* ! ---- Hero(TOP) セクション ---- */
+
+.hero_section {
+    height: 600px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* ロゴ */
+
 .logo {
-    width: 200px;
+    width: 40vw;
     height: auto;
+    max-width: initial;
+    min-width: initial;
 }
 
 .logo_bg {
-    width: 250px;
+    width: 45vw;
     height: auto;
+    max-width: initial;
+    min-width: initial;
 }
 
+/* キャッチコピー */
 
-.face {
-    position: absolute;
-    top: 0;
-    right: -260px;
-    height: 500px;
-    width: auto;
-    max-width: 1100px;
-    overflow: hidden;
-    /* z-index: 800; */
-} 
-
-.copy {
+.copy_box {
     width: 200px;
     margin: 28px 0 0 50px;
 }
 
-.copy > p {
-    font-size: 16px;
-    line-height: 26px;
+.copy_box > p {
+    font-size: 3.5vw;
+    letter-spacing: 0.2vw;
+    line-height: 5vw;
 }
 
-.copy6 p {
-    font-size: 8px;
-    line-height: 10px;
-    padding:10px 0 0 1px;
-    letter-spacing: 2px;
+.title_box p {
+    font-size: 0.2vw;
+    line-height: 2vw;
+    padding: 10px 0 0 1px;
+    letter-spacing: 0.3vw;
     opacity: 0.8;
 }
 
-
 .pf_cursive {
-    width: 250px;
+    width: 50vw;
     position: absolute;
-    top: 150px;
-    left: -20px;
+    top: 25vw;
+    left: 0.1vw;
 }
 
-#hero_section {
-    height: 600px;
-    width: 500px;
+/* 顔写真 */
+
+.face_img {
+    position: absolute;
+    top: 0;
+    right: -260px;
+    height: 120vw;
+    max-height: 450px;
+    width: auto;
+    max-width: 1100px;
     overflow: hidden;
 }
-.scrolldown1 {
-    /* display: none; */
-}
 
-/* プロフィール */
+/* ! ---- Profile セクション ---- */
 
-.section_title {
-    width: 250px;
-    height: auto;
-}
-
-.pf_wrapper {
-    width: 80%;
+.profile_section {
+    width: 70vw;
     margin: 0 auto;
 }
 
-.section_container {
-    width: 500px;
+.profile_title {
+    width: 220px;
+    height: auto;
 }
 
 .profile_text {
@@ -96,25 +100,36 @@ nav, .top_btn, .fnav_box {
     line-height: 36px;
 }
 
-.pc_br {
-    display: none;
+/* ! ---- Gallery セクション ---- */
+
+.gallery_title {
+    width: 250px;
+    height: auto;
 }
 
-/* Gallery */
+/* ポートフォリオページへのリンク */
 
 .link_box {
+    margin: 50px auto;
     width: 270px;
+    padding: 10px 20px;
 }
 
 .link_box a {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
 }
 
-/* メッセージ */
+/* !----- Message セクション ----- */
+
+.message_section {
+    width: 100vw;
+    margin: 200px auto 0;
+}
 
 .message_box {
-    margin-left: 120px;
+    width: 260px;
+    margin: 0 auto;
 }
 
 .message {
@@ -123,48 +138,57 @@ nav, .top_btn, .fnav_box {
     letter-spacing: 2px;
 }
 
-.oy_cursive_box {
-    text-align: start;
-    margin: 28px 0 0 95px;
+.sign_box {
+    text-align: center;
+    margin: 28px auto 95px;
 }
 
-.oy_cursive {
-    width: 300px;
+.sign {
+    width: 70vw;
 }
 
-/* フッター */
+/* ! ---- フッター ---- */
 
 footer {
     margin-top: 200px;
 }
 
-.fnav_box {
+.footer_logo {
+    min-width: 200px;
+}
+
+.footer_logo_bg {
+    min-width: 250px;
+}
+
+.footer_nav_box {
     display: none;
 }
 
 .info_box {
+    position: absolute;
+    bottom: 60px;
+    width: 250px;
+    left: 30px;
     opacity: 0.8;
-    margin-top: 200px;
-    width: 400px;
 }
 
-.info_box h4 {
+.info_name {
     font-size: 22px;
     margin-bottom: 10px;
 }
 
-.info_box p {
+.info_detail {
     font-size: 12px;
     line-height: 20px;
 }
 
-.mo_br {
-    display: inline;
+.mobile_br {
+    /* display: inline; */
 }
 
 small {
     font-size: 10px;
-
 }
 
 }
