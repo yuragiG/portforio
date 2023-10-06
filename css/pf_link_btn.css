@@ -1,5 +1,243 @@
 @charset "utf-8";
 
+/* ボタン位置確認用 */
+
+/* .item {
+    background-color: pink;
+    opacity: 0.3;
+} */
+
+/* ナビゲーションのリンク */
+
+.contents_nav_item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 40px;
+}
+
+.osawaya_nav_item {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 300px;
+    height: 40px;
+}
+
+.flora_nav_item {
+    position: absolute;
+    top: 255px;
+    left: 0;
+    width: 300px;
+    height: 40px;
+}
+
+.zamamoto_castle_nav_item {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 300px;
+    height: 90px;
+}
+
+.namecard_nav_item {
+    position: absolute;
+    top: 200px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.hamono_nav_item {
+    position: absolute;
+    top: 255px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.typography_nav_item {
+    position: absolute;
+    top: 310px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.package_nav_item {
+    position: absolute;
+    top: 360px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+.logo_nav_item {
+    position: absolute;
+    top: 415px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.keyvisual_nav_item {
+    position: absolute;
+    top: 470px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.banner_nav_item {
+    position: absolute;
+    top: 522px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.web_nav_item {
+    position: absolute;
+    top: 576px;
+    left: 370px;
+    width: 380px;
+    height: 40px;
+}
+
+.music_nav_item {
+    position: absolute;
+    top: 200px;
+    left: 815px;
+    width: 190px;
+    height: 40px;
+}
+
+.photography_nav_item {
+    position: absolute;
+    top: 255px;
+    left: 815px;
+    width: 190px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1670px) {
+
+    .contents_nav_item {
+    position: absolute;
+    top: calc(100vw * 0);
+    left: calc(100vw * 0);
+    width: calc(100vw * 0.1);
+    height: calc(100vw *0.022);
+}
+
+    .osawaya_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.12);
+    left: calc(100vw * 0);
+    width: calc(100vw * 0.18);
+    height: calc(100vw *0.023);
+}
+
+    .flora_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.153);
+    left: calc(100vw * 0);
+    width: calc(100vw * 0.18);
+    height: calc(100vw *0.023);
+}
+
+    .zamamoto_castle_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.186);
+    left: calc(100vw * 0);
+    width: calc(100vw * 0.18);
+    height: calc(100vw *0.05);
+}
+
+    .namecard_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.12);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .hamono_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.153);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .typography_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.186);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .package_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.217);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .logo_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.249);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .keyvisual_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.282);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .banner_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.314);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .web_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.347);
+    left: calc(100vw * 0.22);
+    width: calc(100vw * 0.23);
+    height: calc(100vw *0.023);
+}
+
+    .music_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.12);
+    left: calc(100vw * 0.49);
+    width: calc(100vw * 0.115);
+    height: calc(100vw *0.023);
+}
+
+    .photography_nav_item {
+    position: absolute;
+    top: calc(100vw * 0.153);
+    left: calc(100vw * 0.49);
+    width: calc(100vw * 0.115);
+    height: calc(100vw *0.023);
+}
+
+}
+
+
+
 /* 目次ページのリンク */
 
 .osawaya_item {
@@ -8,8 +246,6 @@
     left: calc(100vw * 0.58);
     width: calc(100vw * 0.11);
     height: calc(100vw *0.016);
-    /* background-color: pink; */
-    opacity: 0.5;
 }
 
 .flora_item {
