@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 500px) {
 
+html {
+    scroll-behavior: auto;
+}
+
 /* ロゴ */
 
     .logo {
