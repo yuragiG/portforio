@@ -192,3 +192,39 @@ small {
 }
 
 }
+
+@media (max-width: 1300px) and (min-width: 500px) {
+
+.logo {
+    /* width: 350px; */
+    max-width: 70vw;
+    height: auto;
+    max-width: initial;
+    min-width: initial;
+}
+
+.logo_bg {
+    width: 200px;
+    height: auto;
+    max-width: initial;
+    min-width: initial;
+}
+.copy1, .copy2, .copy3, .copy4, .copy5 {
+    display: inline-block;
+    font-size: 3.3vw;
+    line-height: 6vw;
+    letter-spacing: 0.2vw;
+}
+
+.face_img {
+    position: absolute;
+    top: 0;
+    right: -260px;
+    height: 100vw;
+    max-height: 800px;
+    width: auto;
+    max-width: 1100px;
+    overflow: hidden;
+}
+
+}

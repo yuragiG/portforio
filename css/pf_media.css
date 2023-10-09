@@ -5,14 +5,13 @@
 /* ロゴ */
 
     .logo {
+        position: relative;
+        z-index: 5;
         width: auto;
-        height: 12vh;
-        top: 1vh;
-        left: 1vh;
-    }
-
-    .logo_bg {
-        display: none;
+        height: 14vh;
+        top: 2vh;
+        left: 2vh;
+        /* display: none; */
     }
 
 /* Contents(目次)へ戻るボタン */
@@ -50,6 +49,11 @@
     }
 
     .pf {
+        height: 70vh;
+        width: auto;
+    }
+
+    .pf_box {
         height: 70vh;
         width: auto;
     }

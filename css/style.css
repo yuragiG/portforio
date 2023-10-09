@@ -32,11 +32,16 @@ nav {
   z-index: 1000;
 }
 
+.empty_box {
+  display: inline-block;
+  height: 12vw;
+}
+
 .nav_box {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 300px 0 0 16px;
+  padding: 0 0 0 16px;
 }
 
 .nav_btn {
@@ -71,7 +76,8 @@ nav {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  width: 45px;
+  width: 5vw;
+  max-width: 60px;
   transition-duration: 1s;
   z-index: 1000;
   transition: transform 0.3s;
@@ -116,6 +122,7 @@ nav {
   z-index: 1000;
   width: 900px;
   margin: 150px auto;
+  text-shadow: 0px 0px 16px white;
 }
 
 .copy1, .copy2, .copy3, .copy4, .copy5 {

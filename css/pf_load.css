@@ -1,9 +1,13 @@
+@charset "utf-8";
+
 #splash {
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 2000;
-    background: #dcdddd;
+    z-index: 6000;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align:center;
     color:#fff;
 }
@@ -36,4 +40,12 @@ opacity: 0;
     opacity: 1;
     transform: translateY(0);
     }
+}
+
+@media screen and (max-width: 500px) {
+
+#splash_logo img {
+    width: 50vw;
+}
+
 }
