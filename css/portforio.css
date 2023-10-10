@@ -108,6 +108,24 @@ header {
   /* height: auto; */
 }
 
+.pf_box {
+  position: relative;
+}
+
+.area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.half_area {
+    position: absolute;
+  left: 50%;
+  top: 0;
+  width: 100vw;
+}
+
 /* 「contents(目次)」ページのリンクの基準 */
 
 .contents {
@@ -151,4 +169,5 @@ footer {
 footer p {
   line-height: calc(50vh - 18vw);
   margin-left: 3vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }

@@ -26,22 +26,6 @@ html {
         height: 7vh;
     }
 
-    .openbtn{
-    position:fixed;
-    top: 70px;
-    right: 0;
-	cursor: pointer;
-    width: 50px;
-    height: 50px;
-}
-
-#g-nav-list{
-    display: block;
-}
-
-.menu_items {
-    display: none;
-}
 
 
 /* コンテンツ */
