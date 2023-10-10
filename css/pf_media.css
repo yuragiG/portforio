@@ -18,15 +18,12 @@ html {
         /* display: none; */
     }
 
-/* Contents(目次)へ戻るボタン */
-
-    .back_btn {
-        margin: 3.5vh 1vh 0 0;
-        width: auto;
-        height: 7vh;
-    }
-
-
+.menu_items, .item {
+    display: none;
+}
+#g-nav-list {
+    display: block;
+}
 
 /* コンテンツ */
 
